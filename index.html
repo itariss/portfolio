@@ -25,6 +25,7 @@
 		<link rel="stylesheet" href="css/experience.css" />
 		<link rel="stylesheet" href="css/form-contato.css" />
 		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
 
 		<title>Portifólio Pessoal</title>
 	</head>
@@ -454,27 +455,39 @@
 								class="formcontato__input"
 								type="text"
 								id="nome"
-								placeholder="Nome"
+								required
 							/>
+							<span
+								class="formcontato__label--nome floating-label"
+								>Nome</span
+							>
 							<input
 								class="formcontato__input"
 								type="email"
 								id="email"
-								placeholder="Email"
+								required
 							/>
+							<span
+								class="formcontato__label--email floating-label"
+								>Email</span
+							>
 							<input
 								class="formcontato__input"
 								type="text"
 								id="assunto"
-								placeholder="Assunto"
+								required
 							/>
+							<span
+								class="formcontato__label--assunto floating-label"
+								>Assunto</span
+							>
 							<textarea
 								class="formcontato__textarea"
 								rows="5"
 								cols="40"
 								id="mensagem"
 								name="mensagem"
-								placeholder="Sua mensagem"
+								placeholder="Mensagem"
 							></textarea>
 							<button class="formcontato__botao">
 								Enviar mensagem
