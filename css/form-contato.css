@@ -1,7 +1,6 @@
 .formcontato__contacto {
     display: flex;
     flex-direction: column;
-
 }
 
 .formcontato__title {
@@ -19,39 +18,69 @@
 
 .formcontato__form {
     margin-top: 2rem;
+    width: calc(100% - 1rem);
 }
 
 .formcontato__input {
-    width: calc(100% - 1rem);
-    height: 3.5rem;
+
+    width: 100%;
+    height: 2.5rem;
     margin-bottom: 2rem;
     border: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding-left: .75rem;
     border-bottom: 1px var(--form-border) solid;
     outline: none;
+    font-size: 1rem;
+    padding-left: .75rem;
+    padding-top: 1rem;
 }
 
 .formcontato__input:focus {
     border-bottom: 2px var(--btn-color) solid;
-
 }
 
-.formcontato__input::placeholder {
-    font-size: 1rem;
-    color: var(--placeholder-color);
-    font-weight: 400;
-}
 
-.formcontato__input:focus::placeholder {
-    color: var(--btn-color);
+#nome:focus~.formcontato__label--nome,
+#nome:not(:focus):valid~.formcontato__label--nome {
+    bottom: 5.25rem;
+    left: .75rem;
     font-size: .75rem;
+    color: var(--btn-color);
 }
 
+#nome:not(:focus):valid~.formcontato__label--nome {
+    color: var(--placeholder-color);
+}
+
+#email:focus~.formcontato__label--email,
+#email:not(:focus):valid~.formcontato__label--email {
+    bottom: 5.25rem;
+    left: .75rem;
+    font-size: .75rem;
+    opacity: 1;
+    color: var(--btn-color);
+}
+
+#email:not(:focus):valid~.formcontato__label--email {
+    color: var(--placeholder-color);
+}
+
+#assunto:focus~.formcontato__label--assunto,
+#assunto:not(:focus):valid~.formcontato__label--assunto {
+    bottom: 5.25rem;
+    left: .75rem;
+    font-size: .75rem;
+    opacity: 1;
+    color: var(--btn-color);
+}
+
+#assunto:not(:focus):valid~.formcontato__label--assunto {
+    color: var(--placeholder-color);
+}
 
 .formcontato__textarea {
-    width: calc(100% - 1rem);
+    width: 100%;
     height: 8.3125rem;
     padding-top: 1rem;
     padding-left: .75rem;
@@ -78,4 +107,15 @@
     color: var(--pure-white);
     border: 1px var(--btn-color) solid;
     padding: 0.75rem 1rem;
+}
+
+.floating-label {
+    position: relative;
+    bottom: 4.2rem;
+    left: .75rem;
+    pointer-events: none;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.2s ease all;
+    color: var(--placeholder-color);
 }
