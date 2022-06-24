@@ -1,0 +1,94 @@
+/*Tablet*/
+@media screen and (min-width: 768px) {
+
+
+
+    /* Menu */
+    .menu__header {
+        padding-left: 1rem;
+    }
+
+    .menu__list {
+        margin-right: 1rem;
+    }
+
+    .menu__list__item__contato {
+        font-weight: 700;
+    }
+
+    /*title*/
+
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 1rem;
+
+
+    }
+
+    .title__profile {
+        width: 9.125rem;
+        height: 9.125rem;
+    }
+
+    .about__container {
+        padding: 0 1rem;
+    }
+
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Experiências acadêmicas*/
+
+    /*Expeirência profissional*/
+
+}
+
+
+
+/*Mobile*/
+@media screen and (min-width: 1024px) {
+
+    /*Menu*/
+
+
+    .menu__list__item {
+        display: inline-flex;
+    }
+
+    /*Titulo*/
+
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+    }
+
+    .title__profile {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .title__bio {
+        font-size: 3.25rem;
+    }
+
+    /*Sessão sobre*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formação Acadêmica*/
+
+    /*Experiência Profissional*/
+
+    /*Contato*/
+
+    /*Footer*/
+
+}
