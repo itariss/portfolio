@@ -8,7 +8,7 @@
 
 .experiencie__box {
     width: calc(--section-width);
-    height: 15.6875rem;
+    height: auto;
     margin: 1rem 0;
 }
 
