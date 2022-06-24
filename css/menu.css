@@ -1,0 +1,21 @@
+.menu__header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__title {
+    display: inline-flex;
+    margin-left: .56rem;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list__item {
+    display: none
+}
+
+.menu__list__item__contato {
+    font-size: .75rem;
+}

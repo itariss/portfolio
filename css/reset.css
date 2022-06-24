@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Raleway", "sans-serif";
+	box-sizing: border-box;
+	line-height: 1;
+	width: 100%;
+}
+
+.formcontato__img {
+	width: 100%;
+}
+
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--cor-de-link);
+}

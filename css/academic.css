@@ -1,0 +1,54 @@
+.academic__title {
+    align-self: center;
+    margin: 2rem auto;
+}
+
+.academic__courses {
+    width: var(--section-width);
+    align-self: center;
+
+}
+
+.academic__courses__item__img {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: var(--pure-white);
+    width: 100%;
+    height: 7.375rem;
+    text-align: center;
+}
+
+.academic__courses__item__img--etevav {
+    background-color: #b20101;
+    width: 6.375rem;
+    height: 3.75rem;
+    align-self: center;
+}
+
+.academic__courses__item__img--unicamp {
+    height: 3.75rem;
+    width: 6.375rem;
+
+    align-self: center;
+}
+
+.academic__courses__item__img--alura {
+    width: 6.375rem;
+    height: 3.75rem;
+    align-self: center;
+
+}
+
+.academic__courses__item__title {
+    padding: .5rem 0;
+    font-weight: 700;
+    line-height: 18.78px;
+}
+
+.academic__courses__item__subtitle {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 16px;
+    font-weight: 500;
+}

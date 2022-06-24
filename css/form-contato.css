@@ -1,0 +1,81 @@
+.formcontato__contacto {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formcontato__title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 25.83px;
+    margin-bottom: .5rem;
+}
+
+.formcontato__subtext {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.formcontato__form {
+    margin-top: 2rem;
+}
+
+.formcontato__input {
+    width: calc(100% - 1rem);
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: .75rem;
+    border-bottom: 1px var(--form-border) solid;
+    outline: none;
+}
+
+.formcontato__input:focus {
+    border-bottom: 2px var(--btn-color) solid;
+
+}
+
+.formcontato__input::placeholder {
+    font-size: 1rem;
+    color: var(--placeholder-color);
+    font-weight: 400;
+}
+
+.formcontato__input:focus::placeholder {
+    color: var(--btn-color);
+    font-size: .75rem;
+}
+
+
+.formcontato__textarea {
+    width: calc(100% - 1rem);
+    height: 8.3125rem;
+    padding-top: 1rem;
+    padding-left: .75rem;
+    outline: none;
+    border: none;
+    resize: none;
+    border-bottom: 1px var(--form-border) solid;
+    margin-bottom: 2rem;
+}
+
+.formcontato__textarea:focus {
+    border-bottom: 2px var(--btn-color) solid;
+}
+
+.formcontato__textarea::placeholder {
+    font-size: 1rem;
+    font-family: "Raleway", "sans-serif";
+    font-weight: 400;
+    color: var(--placeholder-color);
+}
+
+.formcontato__botao {
+    background-color: var(--btn-color);
+    color: var(--pure-white);
+    border: 1px var(--btn-color) solid;
+    padding: 0.75rem 1rem;
+}

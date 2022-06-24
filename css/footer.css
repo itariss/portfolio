@@ -1,0 +1,8 @@
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 6.375rem;
+    background-color: var(--pure-white);
+}

@@ -1,0 +1,93 @@
+:root {
+    --bg-white: #E5E5E5;
+    --bg-lightblue: #EAF2FD;
+    --text-color: #464646;
+    --btn-color: #2A7AE4;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --pure-white: #FFFFFF;
+    --form-border: #C8C8C8;
+    --placeholder-color: #A2A2A2;
+    --section-width: calc(100% - 2rem);
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-white);
+    color: var(--text-color);
+}
+
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0 1rem;
+    width: var(--section-width);
+}
+
+/*Sessão Title*/
+
+section.title {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    width: calc(100% - 2rem);
+
+}
+
+/*Sessão About*/
+
+section.about {
+    padding: 1rem;
+    background-color: var(--bg-lightblue);
+    width: var(--section-width);
+
+}
+
+
+/*Sessão Skills e Hobbies*/
+section.skills,
+section.hobbies {
+    text-align: center;
+    padding-bottom: 1rem;
+    width: var(--section-width);
+
+}
+
+/* Experiência Acadêmica*/
+
+section.academic {
+    background-color: var(--bg-lightblue);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: var(--section-width);
+}
+
+/* experiência*/
+
+section.experience {
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+}
+
+/*Contato*/
+
+section.formcontato {
+    background-color: var(--bg-lightblue);
+    padding: 2rem;
+    width: calc(100% - 4rem);
+}
+
+.formcontato__img {
+    display: none;
+}
+
+/*footeer*/
+
+section.footer {
+    width: 100%;
+}
