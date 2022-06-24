@@ -23,7 +23,8 @@ section.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3.5rem;
+    margin-top: 1.1562rem;
+    margin-bottom: 2.1562rem;
     padding: 0 1rem;
     width: var(--section-width);
 }
@@ -78,8 +79,7 @@ section.experience {
 
 section.formcontato {
     background-color: var(--bg-lightblue);
-    padding: 2rem;
-    width: calc(100% - 4rem);
+    padding: 0 2rem;
 }
 
 .formcontato__img {
