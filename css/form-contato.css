@@ -1,6 +1,7 @@
 .formcontato__contacto {
     display: flex;
     flex-direction: column;
+    padding: 2rem 0;
 }
 
 .formcontato__title {
@@ -37,7 +38,7 @@
 }
 
 .formcontato__input:focus {
-    border-bottom: 2px var(--btn-color) solid;
+    border-bottom: 2px var(--form-border-focus) solid;
 }
 
 
@@ -92,7 +93,7 @@
 }
 
 .formcontato__textarea:focus {
-    border-bottom: 2px var(--btn-color) solid;
+    border-bottom: 2px var(--form-border-focus) solid;
 }
 
 .formcontato__textarea::placeholder {
@@ -107,6 +108,12 @@
     color: var(--pure-white);
     border: 1px var(--btn-color) solid;
     padding: 0.75rem 1rem;
+}
+
+.formcontato__botao:hover {
+    cursor: pointer;
+    background-color: var(--btn-hover-prim);
+    border-color: var(--btn-hover-prim);
 }
 
 .floating-label {
