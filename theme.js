@@ -12,7 +12,9 @@ themeDark.addEventListener("click", () => {
 		"--btn-hover-prim: #AA6A16;" +
 		"--btn-hover-sec: #BB881120;" +
 		"--academic-bg-img: none;" +
-		"--form-border-focus: #464646;";
+		"--form-border-focus: #464646;" +
+		"--form-btn: #464646;" +
+		"--form-btn-hover: #46464690;";
 
 	themeDark.classList.add("none");
 	themeLight.classList.remove("none");
@@ -28,7 +30,9 @@ themeLight.addEventListener("click", () => {
 		"--btn-hover-sec: #D4E4FA;" +
 		"--pure-white: #FFFFFF;" +
 		"--academic-bg-img: #B20101;" +
-		"--form-border-focus: #2A7AE4;";
+		"--form-border-focus: #2A7AE4;" +
+		"--form-btn: #2A7AE4;" +
+		"--form-btn-hover: #5595E9;";
 
 	themeLight.classList.add("none");
 	themeDark.classList.remove("none");
