@@ -10,6 +10,9 @@
     --pure-white: #FFFFFF;
     --form-border: #C8C8C8;
     --form-border-focus: #2A7AE4;
+    --form-btn: #2A7AE4;
+    --form-btn-hover: #5595E9;
+    --form-btn-text: #FFFFFF;
     --placeholder-color: #A2A2A2;
     --academic-bg-img: #B20101;
     --section-width: calc(100% - 2rem);
