@@ -16,6 +16,10 @@
     display: none
 }
 
+.menu__list__item a {
+    color: var(--text-color);
+}
+
 .menu__list__item__contato {
     font-size: .75rem;
 }
