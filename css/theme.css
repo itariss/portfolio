@@ -1,0 +1,16 @@
+.none {
+    display: none;
+    transition: 700ms;
+}
+
+.dark,
+.light {
+    transition: 700ms;
+    align-self: flex-start;
+    font-size: 1.375rem;
+}
+
+.dark:hover,
+.light:hover {
+    cursor: pointer;
+}
