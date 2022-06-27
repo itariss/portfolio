@@ -34,3 +34,9 @@
 .hobbies__img {
     margin: 0 1rem;
 }
+
+.skills__img i::before,
+.hobbies__img i::before {
+    color: var(--btn-color);
+    font-size: 2rem;
+}
