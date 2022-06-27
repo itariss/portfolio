@@ -20,16 +20,15 @@
 }
 
 .academic__courses__item__img--etevav {
-    background-color: #b20101;
-    width: 6.375rem;
+    background-color: var(--academic-bg-img);
+    width: 3.375rem;
     height: 3.75rem;
     align-self: center;
 }
 
 .academic__courses__item__img--unicamp {
     height: 3.75rem;
-    width: 6.375rem;
-
+    width: 3.375rem;
     align-self: center;
 }
 
