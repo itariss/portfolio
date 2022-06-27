@@ -26,16 +26,26 @@
 		<link rel="stylesheet" href="css/form-contato.css" />
 		<link rel="stylesheet" href="css/footer.css" />
 		<link rel="stylesheet" href="css/responsive.css" />
-
+		<link rel="stylesheet" href="css/theme.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<script
+			src="https://kit.fontawesome.com/379118b5c6.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Portifólio Pessoal</title>
 	</head>
+
 	<body>
 		<!-- Sessão de Menu  -->
 		<div class="all">
 			<section class="menu">
 				<header class="menu__header">
-					<img src="assets\vector.png" />
-					<h3 class="menu__title">Fulana de Tal</h3>
+					<i class="fa-solid fa-moon dark"></i>
+					<i class="fa-solid fa-sun light none"></i>
+					<h3 class="menu__title">Ítalo Rissardi</h3>
 				</header>
 				<nav>
 					<ul class="menu__list">
@@ -55,10 +65,18 @@
 							<a href="#xp">Experiência</a>
 						</li>
 						<li class="menu__list__item">
-							<a href="#contato">Contato@fulana.com</a>
+							<a
+								href="mailto:italorissardi@gmail.com"
+								target="_blank"
+								>italorissardi@gmail.com</a
+							>
 						</li>
 						<li class="menu__list__item__contato">
-							<a href="#contato">contato@fulana.com</a>
+							<a
+								href="mailto:italorissardi@gmail.com"
+								target="_blank"
+								>italorissardi@gmail.com</a
+							>
 						</li>
 					</ul>
 				</nav>
@@ -70,34 +88,50 @@
 					<img class="title__profile" src="assets\profile.jpg" />
 					<div class="title__container" id="#sobremim">
 						<h2 class="title__bio">
-							Olá, meu nome é Fulana de Tal e construo páginas web
+							Olá, meu nome é Ítalo! Sou um futuro Desenvolvedor
+							Full Stack
 						</h2>
 						<h3 class="title__subsection">
-							Eu sou formada em lorem ipsum sit amet consectetur e
-							atualmente estou participando no projeto Oracle ONE
-							na Alura.
+							Entusiasta e apaixonado por tecnologia, atualmente
+							estou participando no projeto Oracle ONE na Alura.
 						</h3>
 						<ul class="title__network">
 							<!-- Ponha os links de suas redes sociais favoritas -->
 							<li class="title__network__item">
-								<a href=""
-									>Github <img src="assets\arrow.png" />
+								<a
+									href="https://github.com/itariss/"
+									target="_blank"
+									>Github
+									<i
+										class="fa-solid fa-arrow-up-right-from-square"
+									></i>
 								</a>
 							</li>
 							<li class="title__network__item">
-								<a href=""
-									>Linkedin <img src="assets\arrow.png"
-								/></a>
+								<a
+									href="https://www.linkedin.com/in/italo-rissardi/"
+									target="_blank"
+									>Linkedin
+									<i
+										class="fa-solid fa-arrow-up-right-from-square"
+									></i
+								></a>
 							</li>
 							<li class="title__network__item">
-								<a href=""
-									>Instagram <img src="assets\arrow.png"
-								/></a>
+								<a href="" target="_blank"
+									>Instagram
+									<i
+										class="fa-solid fa-arrow-up-right-from-square"
+									></i
+								></a>
 							</li>
 							<li class="title__network__item">
-								<a href=""
-									>Curriculo <img src="assets\arrow.png"
-								/></a>
+								<a href="" target="_blank"
+									>Curriculo
+									<i
+										class="fa-solid fa-arrow-up-right-from-square"
+									></i
+								></a>
 							</li>
 						</ul>
 					</div>
@@ -109,25 +143,20 @@
 				<div class="about__container">
 					<h3 class="about__title">Sobre mim</h3>
 					<p class="about__paragraph">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Pellentesque velit velit, volutpat semper dignissim
-						dictum, imperdiet ut lacus. Quisque gravida ex a mattis
-						pretium. Suspendisse potenti. Ut semper sagittis ligula
-						et lacinia.
+						Natural de São Paulo, vivo hoje em Aracaju. Meu primeiro
+						contato com programação foi durante um curso técnico em
+						Informática, concomitante ao Ensino Médio. Na faculdade,
+						fui estudar Filosofia e, posteriormente, Música. Apesar
+						de não continuar os estudos na área de TI na faculdade,
+						a curiosidade pela informática seguiu falando bem alto.
+						Por fim, em abril de 2022, decidi interromper os estudos
+						e a carreira na música para me tornar um Desenvolvedor
+						Full Stack.
 					</p>
-					<p class="about__paragraph">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Pellentesque velit velit, volutpat semper dignissim
-						dictum, imperdiet ut lacus. Quisque gravida ex a mattis
-						pretium. Suspendisse potenti. Ut semper sagittis ligula
-						et lacinia. Aenean sit amet felis venenatis, egestas
-						metus vitae, aliquet metus.
-					</p>
-					<!-- Caso queira colocar sua própria assinatura, insira aqui! -->
-					<img src="assets\signature.png" />
+
+					<p class="about__paragraph"></p>
 				</div>
 			</section>
-
 			<!-- Sessão de Skills/Habilidades -->
 			<section class="skills">
 				<h3 class="skills__title" id="skills">Skills</h3>
@@ -135,16 +164,16 @@
 					<div class="skills__box">
 						<ul>
 							<li class="skills__img">
-								<img src="assets\htlm.png" />
+								<i class="fa-brands fa-html5"></i>
 							</li>
-							<li class="skills__name">Html 5</li>
+							<li class="skills__name">HTML5</li>
 						</ul>
 					</div>
 
 					<div class="skills__box">
 						<ul>
 							<li class="skills__img">
-								<img src="assets\js_icon.png" alt="" />
+								<i class="fa-brands fa-js-square"></i>
 							</li>
 							<li class="skills__name">Javascript</li>
 						</ul>
@@ -153,16 +182,16 @@
 					<div class="skills__box">
 						<ul>
 							<li class="skills__img">
-								<img src="assets\php_icon.png" alt="" />
+								<i class="fa-brands fa-css3"></i>
 							</li>
-							<li class="skills__name">PHP</li>
+							<li class="skills__name">CSS</li>
 						</ul>
 					</div>
 
 					<div class="skills__box">
 						<ul>
 							<li class="skills__img">
-								<img src="assets\nodejs_icon.png" alt="" />
+								<i class="fa-brands fa-node-js"></i>
 							</li>
 							<li class="skills__name">Node JS</li>
 						</ul>
@@ -171,18 +200,18 @@
 					<div class="skills__box">
 						<ul>
 							<li class="skills__img">
-								<img src="assets\react_icon.png" alt="" />
+								<i class="fa-brands fa-bootstrap"></i>
 							</li>
-							<li class="skills__name">React</li>
+							<li class="skills__name">Bootstrap</li>
 						</ul>
 					</div>
 
 					<div class="skills__box">
 						<ul>
 							<li class="skills__img">
-								<img src="assets\css_icon.png" alt="" />
+								<i class="fa-brands fa-git-alt"></i>
 							</li>
-							<li class="skills__name">CSS</li>
+							<li class="skills__name">GIT</li>
 						</ul>
 					</div>
 				</div>
@@ -195,25 +224,25 @@
 					<div class="hobbies__box">
 						<ul>
 							<li class="hobbies__img">
-								<img src="assets\skate_icon.png" />
+								<i class="fa-solid fa-guitar"></i>
 							</li>
-							<li class="hobbies__name">Andar de skate</li>
+							<li class="hobbies__name">Violão</li>
 						</ul>
 					</div>
 
 					<div class="hobbies__box">
 						<ul>
 							<li class="hobbies__img">
-								<img src="assets\guitar_icon.png" alt="" />
+								<i class="fa-solid fa-chess-board"></i>
 							</li>
-							<li class="hobbies__name">Tocar baixo</li>
+							<li class="hobbies__name">Xadrez</li>
 						</ul>
 					</div>
 
 					<div class="hobbies__box">
 						<ul>
 							<li class="hobbies__img">
-								<img src="assets\headphones_icon.png" alt="" />
+								<i class="fa-solid fa-compact-disc"></i>
 							</li>
 							<li class="hobbies__name">Ouvir música</li>
 						</ul>
@@ -222,16 +251,16 @@
 					<div class="hobbies__box">
 						<ul>
 							<li class="hobbies__img">
-								<img src="assets\tv_icon.png" alt="" />
+								<i class="fa-solid fa-book-skull"></i>
 							</li>
-							<li class="hobbies__name">Assistir séries</li>
+							<li class="hobbies__name">Ler livros</li>
 						</ul>
 					</div>
 
 					<div class="hobbies__box">
 						<ul>
 							<li class="hobbies__img">
-								<img src="assets\forkspoon_icon.png" alt="" />
+								<i class="fa-solid fa-kitchen-set"></i>
 							</li>
 							<li class="hobbies__name">Cozinhar</li>
 						</ul>
@@ -240,9 +269,9 @@
 					<div class="hobbies__box">
 						<ul>
 							<li class="hobbies__img">
-								<img src="assets\camera_icon.png" alt="" />
+								<i class="fa-solid fa-campground"></i>
 							</li>
-							<li class="hobbies__name">Tirar fotos</li>
+							<li class="hobbies__name">Acampar</li>
 						</ul>
 					</div>
 				</div>
@@ -293,7 +322,7 @@
 							<!-- Insira a logo de seu local de formação -->
 							<li class="academic__courses__item__img alura">
 								<img
-									src="./assets/alura-logo.png"
+									src="./assets/alura-logo1.svg"
 									class="academic__courses__item__img--alura"
 								/>
 							</li>
@@ -329,14 +358,18 @@
 						<div class="experience__description">
 							<!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
 							<span class="experience__repo"
-								><a href=""
+								><a
+									href="https://github.com/itariss/one-challenge1"
+									target="_blank"
 									><button class="experiencia__botao--repo">
 										Repositório
 									</button></a
 								></span
 							>
 							<span class="experience__demo"
-								><a href=""
+								><a
+									href="https://itariss.github.io/one-challenge1/"
+									target="_blank"
 									><button class="experiencia__botao--demo">
 										Ver demo
 									</button></a
@@ -357,14 +390,18 @@
 						<div class="experience__description">
 							<!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
 							<span class="experience__repo"
-								><a href=""
+								><a
+									href="https://github.com/itariss/one-challenge2"
+									target="_blank"
 									><button class="experiencia__botao--repo">
 										Repositório
 									</button></a
 								></span
 							>
 							<span class="experience__demo"
-								><a href=""
+								><a
+									href="https://itariss.github.io/one-challenge2/"
+									target="_blank"
 									><button class="experiencia__botao--demo">
 										Ver demo
 									</button></a
@@ -376,25 +413,28 @@
 
 				<div class="experiencie__box">
 					<!-- Insira a logo de seu projeto/trabalho -->
-					<img class="experience__img" src="" />
+					<img
+						class="experience__img"
+						src="./assets/app-pomodoro.gif"
+					/>
 					<div class="experience__info">
-						<h2 class="experience__title">
-							Decodificador de texto
-						</h2>
-						<h3 class="experience__text">
-							Challenge Alura Codificador
-						</h3>
+						<h2 class="experience__title">App Pomodoro</h2>
+						<h3 class="experience__text">Desafio Pessoal</h3>
 						<div class="experience__description">
 							<!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
 							<span class="experience__repo"
-								><a href=""
+								><a
+									href="https://github.com/itariss/app-pomodoro"
+									target="_blank"
 									><button class="experiencia__botao--repo">
 										Repositório
 									</button></a
 								></span
 							>
 							<span class="experience__demo"
-								><a href=""
+								><a
+									href="https://itariss.github.io/app-pomodoro/"
+									target="_blank"
 									><button class="experiencia__botao--demo">
 										Ver demo
 									</button></a
@@ -404,8 +444,8 @@
 					</div>
 				</div>
 
-				<div class="experiencie__box">
-					<!-- Insira a logo de seu projeto/trabalho -->
+				<!-- <div class="experiencie__box">
+	
 					<img class="experience__img" src="" />
 					<div class="experience__info">
 						<h2 class="experience__title">
@@ -413,7 +453,6 @@
 						</h2>
 						<h3 class="experience__text">Challenge Oracle</h3>
 						<div class="experience__description">
-							<!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
 							<span class="experience__repo"
 								><a href=""
 									><button class="experiencia__botao--repo">
@@ -430,7 +469,7 @@
 							>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</section>
 			<!-- Sessão de Contato -->
 			<section class="formcontato">
@@ -500,12 +539,23 @@
 			<!-- Sessão de Footer/Rodapé-->
 			<section class="footer">
 				<div class="footer__rodape">
-					<p>Desenvolvido por Fulana de Tal</p>
+					<p>
+						Desenvolvido por
+						<strong
+							><a
+								href="https://github.com/itariss/"
+								target="_blank"
+								>Ítalo Rissardi
+							</a>
+						</strong>
+					</p>
 					<p>2022</p>
 				</div>
 			</section>
 		</div>
 		<!-- Script Linkado do seu documento de JavaScript -->
 		<script src="validate.js"></script>
+		<script src="theme.js"></script>
+		<script src="animations.js"></script>
 	</body>
 </html>
