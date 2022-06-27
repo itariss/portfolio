@@ -1,0 +1,5 @@
+.experiencie__box {
+    width: calc(--section-width);
+    height: auto;
+    margin: 1rem 0;
+}

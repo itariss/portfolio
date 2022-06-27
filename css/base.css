@@ -1,3 +1,13 @@
+@import url(./menu/menu.css);
+@import url(./title/title.css);
+@import url(./about/about.css);
+@import url(./skills/skills.css);
+@import url(./hobbies/hobbies.css);
+@import url(./academic/academic.css);
+@import url(./experience/experience.css);
+@import url(./form-contact/form-contato.css);
+@import url(./footer/footer.css);
+
 :root {
     --bg-white: #F5F5F5;
     --bg-lightblue: #EAF2FD;
@@ -25,78 +35,4 @@
     background-color: var(--bg-white);
     color: var(--text-color);
     transition: 700ms;
-}
-
-section.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1.1562rem;
-    margin-bottom: 2.1562rem;
-    padding: 0 1rem;
-    width: var(--section-width);
-}
-
-/*Sessão Title*/
-
-section.title {
-    padding: 0 1rem;
-    margin-bottom: 1rem;
-    width: calc(100% - 2rem);
-
-}
-
-/*Sessão About*/
-
-section.about {
-    padding: 1rem;
-    background-color: var(--bg-lightblue);
-    width: var(--section-width);
-
-}
-
-
-/*Sessão Skills e Hobbies*/
-section.skills,
-section.hobbies {
-    text-align: center;
-    padding-bottom: 1rem;
-    width: var(--section-width);
-
-}
-
-/* Experiência Acadêmica*/
-
-section.academic {
-    background-color: var(--bg-lightblue);
-    padding: 0 1rem;
-    display: flex;
-    flex-direction: column;
-    width: var(--section-width);
-}
-
-/* experiência*/
-
-section.experience {
-    width: calc(100% - 4rem);
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 2rem;
-}
-
-/*Contato*/
-
-section.formcontato {
-    background-color: var(--bg-lightblue);
-    padding: 0 2rem;
-}
-
-.formcontato__img {
-    display: none;
-}
-
-/*footeer*/
-
-section.footer {
-    width: 100%;
 }

@@ -1,0 +1,11 @@
+@import url(hobbies-box.css);
+@import url(hobbies-img.css);
+@import url(hobbies-line.css);
+@import url(hobbies-name.css);
+@import url(hobbies-title.css);
+
+section.hobbies {
+    text-align: center;
+    padding-bottom: 1rem;
+    width: var(--section-width);
+}

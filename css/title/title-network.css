@@ -1,0 +1,7 @@
+.title__network {
+    display: flex;
+    justify-content: space-between;
+    font-size: .87rem;
+    font-weight: 600;
+    margin-right: 1rem;
+}

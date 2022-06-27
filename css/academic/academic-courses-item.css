@@ -1,14 +1,3 @@
-.academic__title {
-    align-self: center;
-    margin: 2rem auto;
-}
-
-.academic__courses {
-    width: var(--section-width);
-    align-self: center;
-
-}
-
 .academic__courses__item__img {
     display: flex;
     align-self: center;

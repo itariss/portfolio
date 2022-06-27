@@ -1,0 +1,9 @@
+@import url(about-paragraph.css);
+@import url(about-title.css);
+
+section.about {
+    padding: 1rem;
+    background-color: var(--bg-lightblue);
+    width: var(--section-width);
+
+}

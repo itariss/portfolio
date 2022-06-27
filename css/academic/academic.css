@@ -1,0 +1,11 @@
+@import url(academic-title.css);
+@import url(academic-courses.css);
+@import url(academic-courses-item.css);
+
+section.academic {
+    background-color: var(--bg-lightblue);
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    width: var(--section-width);
+}

@@ -1,0 +1,8 @@
+.hobbies__img {
+    margin: 0 1rem;
+}
+
+.hobbies__img i::before {
+    color: var(--btn-color);
+    font-size: 2rem;
+}

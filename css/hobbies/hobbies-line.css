@@ -1,0 +1,7 @@
+.hobbies__line {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 1fr);
+    width: calc(100% - 1rem);
+    gap: 1rem;
+}

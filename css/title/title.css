@@ -1,0 +1,12 @@
+@import url(title-bio.css);
+@import url(title-container.css);
+@import url(title-network.css);
+@import url(title-profile.css);
+@import url(title-subsection.css);
+
+section.title {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    width: calc(100% - 2rem);
+
+}

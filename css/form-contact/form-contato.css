@@ -1,0 +1,13 @@
+@import url(formcontato-button.css);
+@import url(formcontato-contacto.css);
+@import url(formcontato-form.css);
+@import url(formcontato-img.css);
+@import url(formcontato-input.css);
+@import url(formcontato-subtext.css);
+@import url(formcontato-textarea.css);
+@import url(formcontato-title.css);
+
+section.formcontato {
+    background-color: var(--bg-lightblue);
+    padding: 0 2rem;
+}

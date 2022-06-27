@@ -1,0 +1,14 @@
+@import url(experience-box.css);
+@import url(experience-button.css);
+@import url(experience-description.css);
+@import url(experience-img.css);
+@import url(experience-section-title.css);
+@import url(experience-text.css);
+@import url(experience-title.css);
+
+section.experience {
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}

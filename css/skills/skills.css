@@ -1,0 +1,11 @@
+@import url(skills-box.css);
+@import url(skills-img.css);
+@import url(skills-line.css);
+@import url(skills-name.css);
+@import url(skills-title.css);
+
+section.skills {
+    text-align: center;
+    padding-bottom: 1rem;
+    width: var(--section-width);
+}
