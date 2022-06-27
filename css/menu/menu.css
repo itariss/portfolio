@@ -1,0 +1,13 @@
+@import url(menu-header.css);
+@import url(menu-title.css);
+@import url(menu-list.css);
+
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.1562rem;
+    margin-bottom: 2.1562rem;
+    padding: 0 1rem;
+    width: var(--section-width);
+}

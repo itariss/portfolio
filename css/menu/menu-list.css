@@ -1,0 +1,19 @@
+.menu__list {
+    display: flex;
+}
+
+.menu__list__item {
+    display: none
+}
+
+.menu__list__item a {
+    color: var(--text-color);
+}
+
+.menu__list__item a:hover {
+    border-bottom: 1px var(--form-border-focus) solid;
+}
+
+.menu__list__item__contato {
+    font-size: .75rem;
+}
