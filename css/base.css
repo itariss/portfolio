@@ -7,7 +7,6 @@
 @import url(./menu/menu.css);
 @import url(./skills/skills.css);
 @import url(./title/title.css);
-@import url(theme.css);
 
 :root {
     --academic-bg-img: #B20101;

@@ -17,8 +17,8 @@ themeDark.addEventListener("click", () => {
 		"--form-btn-hover: #46464690;" +
 		"--menu-border-focus: #AA6A16;";
 
-	themeDark.classList.add("none");
 	themeLight.classList.remove("none");
+	themeDark.classList.add("none");
 });
 
 themeLight.addEventListener("click", () => {
@@ -36,6 +36,6 @@ themeLight.addEventListener("click", () => {
 		"--form-btn-hover: #5595E9;" +
 		"--menu-border-focus: #2A7AE4;";
 
-	themeLight.classList.add("none");
 	themeDark.classList.remove("none");
+	themeLight.classList.add("none");
 });
