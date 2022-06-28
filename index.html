@@ -4,29 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 		<!-- Folha de estilo de CSS Linkado -->
-
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/base.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
 		<!-- Fonte do Projeto Raleway -->
 		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/base.css" />
-		<link rel="stylesheet" href="css/menu.css" />
-		<link rel="stylesheet" href="css/titulo.css" />
-		<link rel="stylesheet" href="css/about.css" />
-		<link rel="stylesheet" href="css/skills-hobbies.css" />
-		<link rel="stylesheet" href="css/academic.css" />
-		<link rel="stylesheet" href="css/experience.css" />
-		<link rel="stylesheet" href="css/form-contato.css" />
-		<link rel="stylesheet" href="css/footer.css" />
-		<link rel="stylesheet" href="css/responsive.css" />
-		<link rel="stylesheet" href="css/theme.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -383,9 +370,7 @@
 					<!-- Insira a logo/captura de seu projeto/trabalho -->
 					<img class="experience__img" src="./assets/forca.jpg" />
 					<div class="experience__info">
-						<h2 class="experience__title">
-							Jogo criado com HTML, CSS e JavaScript
-						</h2>
+						<h2 class="experience__title">Jogo da Forca</h2>
 						<h3 class="experience__text">Challenge Oracle</h3>
 						<div class="experience__description">
 							<!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
@@ -443,33 +428,6 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- <div class="experiencie__box">
-	
-					<img class="experience__img" src="" />
-					<div class="experience__info">
-						<h2 class="experience__title">
-							Jogo criado com HTML, CSS e JavaScript
-						</h2>
-						<h3 class="experience__text">Challenge Oracle</h3>
-						<div class="experience__description">
-							<span class="experience__repo"
-								><a href=""
-									><button class="experiencia__botao--repo">
-										Repositório
-									</button></a
-								></span
-							>
-							<span class="experience__demo"
-								><a href=""
-									><button class="experiencia__botao--demo">
-										Ver demo
-									</button></a
-								></span
-							>
-						</div>
-					</div>
-				</div> -->
 			</section>
 			<!-- Sessão de Contato -->
 			<section class="formcontato">
@@ -489,7 +447,7 @@
 							Preencha o formulário ao lado e entrarei em contato
 							o mais rápido possível.
 						</h3>
-						<form class="formcontato__form">
+						<form autocomplete="off" class="formcontato__form">
 							<input
 								class="formcontato__input"
 								type="text"
@@ -527,15 +485,15 @@
 								id="mensagem"
 								name="mensagem"
 								placeholder="Mensagem"
+								required
 							></textarea>
-							<button class="formcontato__botao">
+							<button type="submit" class="formcontato__botao">
 								Enviar mensagem
 							</button>
 						</form>
 					</div>
 				</div>
 			</section>
-
 			<!-- Sessão de Footer/Rodapé-->
 			<section class="footer">
 				<div class="footer__rodape">
@@ -554,8 +512,8 @@
 			</section>
 		</div>
 		<!-- Script Linkado do seu documento de JavaScript -->
-		<script src="validate.js"></script>
-		<script src="theme.js"></script>
-		<script src="animations.js"></script>
+		<script src="./js/validate.js"></script>
+		<script src="./js/theme.js"></script>
+		<script src="./js/animations.js"></script>
 	</body>
 </html>
