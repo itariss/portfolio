@@ -5,10 +5,23 @@
 @import url(experience-section-title.css);
 @import url(experience-text.css);
 @import url(experience-title.css);
+@import url(experience-info.css);
 
 section.experience {
     width: calc(100% - 4rem);
     display: flex;
     flex-direction: column;
     padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    section.experience {
+        width: calc(100% - 8rem);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    section.experience {
+        width: calc(100% - 19rem);
+    }
 }

@@ -3,3 +3,24 @@
     height: 6.12rem;
     border-radius: 50%;
 }
+
+@media screen and (min-width: 768px) {
+    .title__profile {
+        width: 9.125rem;
+        height: 9.125rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title__profile {
+        width: 17rem;
+        height: 17rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .title__profile {
+        width: 23rem;
+        height: 23rem;
+    }
+}

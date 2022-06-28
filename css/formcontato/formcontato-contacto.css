@@ -1,0 +1,25 @@
+.formcontato__contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .formcontato__contacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 6.093rem;
+        padding-bottom: 3.093rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formcontato__contacto {
+        width: calc(100% - 19rem);
+        display: flex;
+        flex-direction: row;
+        padding-top: 8.093rem;
+        padding-bottom: 4.093rem;
+    }
+}

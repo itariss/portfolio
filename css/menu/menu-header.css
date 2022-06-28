@@ -2,3 +2,21 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+    .menu__header {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__header {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .menu__header {
+        padding: 0 8.5rem;
+    }
+}

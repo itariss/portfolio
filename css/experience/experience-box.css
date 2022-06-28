@@ -3,3 +3,16 @@
     height: auto;
     margin: 1rem 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .experiencie__box {
+        display: flex;
+        margin-bottom: 3.3437rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .experiencie__box:nth-of-type(2n) {
+        flex-direction: row-reverse;
+    }
+}

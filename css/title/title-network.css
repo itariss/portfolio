@@ -5,3 +5,26 @@
     font-weight: 600;
     margin-right: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+
+    .title__network {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .title__network {
+        justify-content: flex-start;
+    }
+
+    .title__network__item {
+        margin-right: 2.0431rem;
+    }
+
+    .title__network__item img {
+        margin-left: .2931rem;
+    }
+}

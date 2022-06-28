@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+    .experience__info {
+        width: 14rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .experience__info {
+        width: 23rem;
+    }
+}

@@ -9,3 +9,18 @@ section.skills {
     padding-bottom: 1rem;
     width: var(--section-width);
 }
+
+@media screen and (min-width: 768px) {
+    section.skills {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    section.skills {
+        padding-bottom: 5.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

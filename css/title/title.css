@@ -3,6 +3,7 @@
 @import url(title-network.css);
 @import url(title-profile.css);
 @import url(title-subsection.css);
+@import url(title-div.css);
 
 section.title {
     padding: 0 1rem;

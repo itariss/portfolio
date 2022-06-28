@@ -1,3 +1,16 @@
 .title__bio {
     font-size: 1.375rem;
 }
+
+@media screen and (min-width: 768px) {
+    .title__bio {
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .title__bio {
+        font-size: 3.25rem;
+        line-height: 3.8125rem;
+    }
+}

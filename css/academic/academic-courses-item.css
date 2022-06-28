@@ -40,3 +40,48 @@
     line-height: 16px;
     font-weight: 500;
 }
+
+@media screen and (min-width: 768px) {
+    .academic__title {
+        font-size: 1.375rem;
+    }
+
+    .academic__courses__item__title {
+        font-size: 1rem;
+    }
+
+    .academic__courses__item__subtitle {
+        font-size: .875rem;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .academic__title {
+        font-size: 2rem;
+        margin-top: 5.125rem;
+    }
+
+    .academic__courses__item__img {
+        height: 17.875rem;
+    }
+
+    .academic__courses__item__img--etevav {
+        width: 8.125rem;
+        height: 8.125rem;
+    }
+
+    .academic__courses__item__img--unicamp {
+        width: 8.125rem;
+        height: 8.125rem;
+    }
+
+    .academic__courses__item__img--alura {
+        width: 12rem;
+        height: 8.125rem;
+    }
+
+    .academic__courses__item__subtitle {
+        margin-bottom: 5.125rem;
+    }
+}

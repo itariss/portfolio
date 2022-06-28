@@ -5,3 +5,28 @@
     width: calc(100% - 1rem);
     gap: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .skills__line {
+        padding: 0 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: calc(100% - 2rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__line {
+        width: calc(100% - 8rem);
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .skills__line {
+        padding: 0;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 100%;
+        width: calc(100% - 17rem);
+    }
+}

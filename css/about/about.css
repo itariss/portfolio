@@ -1,5 +1,6 @@
 @import url(about-paragraph.css);
 @import url(about-title.css);
+@import url(about-container.css);
 
 section.about {
     padding: 1rem;

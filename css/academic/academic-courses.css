@@ -3,3 +3,26 @@
     align-self: center;
 
 }
+
+@media screen and (min-width: 768px) {
+    .academic__courses {
+        display: grid;
+        width: calc(100% - 2rem);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100%;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .academic__courses {
+        width: calc(100% - 8rem);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .academic__courses {
+        width: calc(100% - 17rem);
+    }
+}

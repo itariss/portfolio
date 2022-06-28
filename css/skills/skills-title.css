@@ -2,3 +2,17 @@
     margin: 1rem auto 2rem;
     font-size: 1.37rem;
 }
+
+@media screen and (min-width: 768px) {
+    .skills__title {
+        margin: 2rem auto;
+        font-size: 1.375rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .skills__title {
+        margin: 2rem auto;
+        font-size: 2rem;
+    }
+}

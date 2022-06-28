@@ -6,3 +6,9 @@
     justify-content: flex-end;
     height: 7.37rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .hobbies__box ul {
+        height: 10.875rem;
+    }
+}

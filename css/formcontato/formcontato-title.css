@@ -4,3 +4,9 @@
     line-height: 25.83px;
     margin-bottom: .5rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .formcontato__title {
+        font-size: 2rem;
+    }
+}

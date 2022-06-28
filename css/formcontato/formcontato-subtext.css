@@ -1,11 +1,11 @@
-.experience__text {
-    font-size: 0.875rem;
+.formcontato__subtext {
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 16.44px;
+    line-height: 19px;
 }
 
 @media screen and (min-width: 1440px) {
-    .experience__text {
+    .formcontato__subtext {
         font-size: 1rem;
     }
 }

@@ -1,3 +1,15 @@
 .experience__img {
     width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+    .experience__img {
+        width: 37rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .experience__img {
+        width: 47rem;
+    }
+}

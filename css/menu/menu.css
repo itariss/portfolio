@@ -11,3 +11,10 @@ section.menu {
     padding: 0 1rem;
     width: var(--section-width);
 }
+
+@media screen and (min-width: 1024px) {
+    section.menu {
+        margin-top: 2.1562rem;
+        margin-bottom: 4.1562rem;
+    }
+}

@@ -6,3 +6,9 @@
     height: 6.375rem;
     background-color: var(--pure-white);
 }
+
+@media screen and (min-width: 1440px) {
+    .footer__rodape {
+        font-size: 1rem;
+    }
+}

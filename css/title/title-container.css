@@ -1,3 +1,17 @@
 .title__container {
     margin-top: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .title__container {
+        width: 32.75rem;
+        margin-bottom: 1.593rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title__container {
+        margin-top: 3.8125rem;
+        width: 46.937rem;
+    }
+}

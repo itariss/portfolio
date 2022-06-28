@@ -5,3 +5,9 @@
     margin-top: 1rem;
     margin-bottom: .5rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .experience__title {
+        font-size: 1.375rem;
+    }
+}

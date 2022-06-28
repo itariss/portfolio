@@ -1,38 +1,40 @@
-@import url(./menu/menu.css);
-@import url(./title/title.css);
-@import url(./about/about.css);
-@import url(./skills/skills.css);
-@import url(./hobbies/hobbies.css);
 @import url(./academic/academic.css);
+@import url(./about/about.css);
+@import url(./formcontato/formcontato.css);
 @import url(./experience/experience.css);
-@import url(./form-contact/form-contato.css);
 @import url(./footer/footer.css);
+@import url(./hobbies/hobbies.css);
+@import url(./menu/menu.css);
+@import url(./skills/skills.css);
+@import url(./title/title.css);
+@import url(theme.css);
 
 :root {
+    --academic-bg-img: #B20101;
     --bg-white: #F5F5F5;
     --bg-lightblue: #EAF2FD;
-    --text-color: #464646;
     --btn-color: #2A7AE4;
     --btn-hover-prim: #5595E9;
     --btn-hover-sec: #D4E4FA;
     --cor-de-fundo: #F5F5F5;
-    --link-color: #000;
-    --pure-white: #FFFFFF;
     --form-border: #C8C8C8;
     --form-border-focus: #2A7AE4;
     --form-btn: #2A7AE4;
     --form-btn-hover: #5595E9;
     --form-btn-text: #FFFFFF;
+    --link-color: #000;
+    --menu-border-focus: #2A7AE4;
     --placeholder-color: #A2A2A2;
-    --academic-bg-img: #B20101;
+    --pure-white: #FFFFFF;
     --section-width: calc(100% - 2rem);
+    --text-color: #464646;
 }
 
 .all {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: var(--bg-white);
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
     transition: 700ms;
 }

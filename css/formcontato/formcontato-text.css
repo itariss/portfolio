@@ -1,0 +1,19 @@
+@media screen and (min-width: 1024px) {
+    .formcontato__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 28rem;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formcontato__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 35.25rem;
+
+    }
+}

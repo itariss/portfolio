@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+    /*title*/
+
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title__div {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    /*Titulo*/
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 8.5rem;
+    }
+}

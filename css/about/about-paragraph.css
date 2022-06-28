@@ -3,3 +3,11 @@
     line-height: 1.1rem;
     margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .about__paragraph {
+        font-size: 1rem;
+        width: 46.937rem;
+        line-height: 1.187rem;
+    }
+}

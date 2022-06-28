@@ -9,3 +9,18 @@ section.hobbies {
     padding-bottom: 1rem;
     width: var(--section-width);
 }
+
+@media screen and (min-width: 768px) {
+    section.hobbies {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    section.hobbies {
+        padding: 0;
+        padding-bottom: 5.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
