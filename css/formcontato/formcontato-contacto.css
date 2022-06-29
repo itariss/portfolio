@@ -9,8 +9,14 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-top: 6.093rem;
-        padding-bottom: 3.093rem;
+        padding-top: 2.093rem;
+        padding-bottom: 1.093rem;
+        background-color: var(--form-bg);
+        border-top: 4rem var(--bg-lightblue) solid;
+        border-bottom: 2rem var(--bg-lightblue) solid;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 15px;
     }
 }
 
@@ -19,7 +25,8 @@
         width: calc(100% - 19rem);
         display: flex;
         flex-direction: row;
-        padding-top: 8.093rem;
+        padding-top: 3.093rem;
         padding-bottom: 4.093rem;
+        border-top: 5rem var(--bg-lightblue) solid;
     }
 }

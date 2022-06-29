@@ -8,8 +8,8 @@
     transition: 700ms;
     align-self: flex-start;
     font-size: 1.375rem;
-    animation: jello;
-    animation-duration: 2s;
+    animation: bounce;
+    animation-duration: 1s;
     animation-delay: 1s;
 }
 

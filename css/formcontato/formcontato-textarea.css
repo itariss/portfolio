@@ -6,6 +6,8 @@
     outline: none;
     border: none;
     resize: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-bottom: 1px var(--form-border) solid;
     margin-bottom: 2rem;
 }
