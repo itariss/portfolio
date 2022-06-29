@@ -13,7 +13,7 @@
 }
 
 .formcontato__textarea:focus {
-    border-bottom: 2px var(--form-border-focus) solid;
+    border-bottom: 2px var(--btn-color) solid;
 }
 
 .formcontato__textarea::placeholder {
