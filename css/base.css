@@ -9,28 +9,28 @@
 @import url(./title/title.css);
 
 :root {
-    --academic-bg-img: #B20101;
-    --bg-white: #F5F5F5;
-    --bg-lightblue: #EAF2FD;
-    --btn-color: #2A7AE4;
-    --btn-hover-prim: #5595E9;
-    --btn-hover-sec: #D4E4FA;
-    --cor-de-fundo: #F5F5F5;
-    --form-bg: #EAF2FD;
-    --form-border: #C8C8C8;
-    --link-color: #000;
-    --menu-border-focus: #2A7AE4;
-    --placeholder-color: #A2A2A2;
-    --pure-white: #FFFFFF;
-    --text-color: #464646;
-    --section-width: calc(100% - 2rem);
+	--academic-bg-img: #b20101;
+	--bg-white: #f5f5f5;
+	--bg-lightblue: #eaf2fd;
+	--btn-color: #2a7ae4;
+	--btn-hover-prim: #5595e9;
+	--btn-hover-sec: #d4e4fa;
+	--cor-de-fundo: #f5f5f5;
+	--form-bg: #eaf2fd;
+	--form-border: #c8c8c8;
+	--link-color: #000;
+	--menu-border-focus: #2a7ae4;
+	--placeholder-color: #a2a2a2;
+	--pure-white: #ffffff;
+	--text-color: #464646;
+	--section-width: calc(100% - 2rem);
 }
 
 .all {
-    align-items: center;
-    background-color: var(--bg-white);
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    transition: 700ms;
+	align-items: center;
+	background-color: var(--bg-white);
+	color: var(--text-color);
+	display: flex;
+	flex-direction: column;
+	transition: 700ms;
 }

@@ -1,63 +1,60 @@
 .menu__list {
-    display: flex;
+	display: flex;
 }
 
 .menu__list__item {
-    display: none
+	display: none;
 }
 
 .menu__list__item a {
-    color: var(--text-color);
+	color: var(--text-color);
 }
 
 .menu__list__item a:hover {
-    border-bottom: 1px var(--menu-border-focus) solid;
+	border-bottom: 1px var(--menu-border-focus) solid;
 }
 
 .menu__list__item__contato {
-    font-size: .75rem;
+	font-size: 0.75rem;
 }
 
 @media screen and (min-width: 768px) {
-    .menu__list {
-        margin-right: 1rem;
-    }
+	.menu__list {
+		margin-right: 1rem;
+	}
 
-    .menu__list__item__contato {
-        font-weight: 700;
-    }
+	.menu__list__item__contato {
+		font-weight: 700;
+	}
 }
 
 @media screen and (min-width: 1024px) {
+	.menu__list {
+		margin-right: 4rem;
+		display: flex;
+	}
 
-    .menu__list {
-        margin-right: 4rem;
-        display: flex;
-    }
+	.menu__list__item {
+		display: inline-flex;
+		margin-right: 1rem;
+		font-size: 0.875rem;
+	}
 
+	.menu__list__item:nth-of-type(6) {
+		font-weight: 700;
+	}
 
-    .menu__list__item {
-        display: inline-flex;
-        margin-right: 1rem;
-        font-size: .875rem;
-
-    }
-
-    .menu__list__item:nth-of-type(6) {
-        font-weight: 700;
-    }
-
-    .menu__list__item__contato {
-        display: none;
-    }
+	.menu__list__item__contato {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 1440px) {
-    .menu__list {
-        margin-right: 8.5rem;
-    }
+	.menu__list {
+		margin-right: 8.5rem;
+	}
 
-    .menu__list__item {
-        margin-right: 2rem;
-    }
+	.menu__list__item {
+		margin-right: 2rem;
+	}
 }
